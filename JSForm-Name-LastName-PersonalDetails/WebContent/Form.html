@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="utf-8">
+<title> Personal Information Form</title>
+<link rel="stylesheet" href="Form.css">
+</head>
+<body >
+<form name="form"  onsubmit="return validateForm()" action="">
+<div class="header">
+<h1 align="left" style="font-size:25px;">
+ <a href="file:///C:/Users/arash/eclipse-workspace/JSForm-Name-LastName-PersonalDetails/WebContent/MainPage.html"  style="width:77px; padding: 10px; " class="button" >Home</a>
+ <a href="file:///C:/Users/arash/eclipse-workspace/JSForm-Name-LastName-PersonalDetails/WebContent/Calculator/JSCalculator.html"  style="width:77px;padding: 10px;" class="button">Calculator</a>
+ <a href=""  style="width:77px;padding: 10px;" class="button">Personal Information</a>
+ <img src="file:///C:/Users/arash/eclipse-workspace/JSForm-Name-LastName-PersonalDetails/header.png" alt="Javascript" style="float:right;width:400px;height:80px;align-content: center; " />
+ </h1>
+</div>
+<table class = "page" >
+<tr>
+<td colspan = "2"><label for="Name" style="color:white;">Name:* </label><input class = "display-box" type = "text" id="Name"  name="Name"  /> </td>
+<td colspan = "1" > <label for="LastName" style="color:white;">Last Name:*</label> <input class = "display-box" type = "text"  id="LastName"   /> </td>
+<td colspan = "1" > </td>
+<td colspan = "1" > <label for="Sex" style="color:white;">Sex:* </label><select name="Sex"  id="Sex" class = "display-box" ><option value="">--</option><option value="Male" >Male</option><option value="Female">Female</option></select> </td>
+</tr>
+<tr>
+<td colspan = "3"> <label for="Address" style="color:white;"> Address:</label> <input class = "display-address" type = "text"  id="Address"  /> </td>
+<td colspan = "1" > </td>
+<td colspan = "1"> <label for="Number" style="color:white;"> Number: </label><input class = "display-box" type = "text"  id="Number" /> </td>
+</tr>
+<tr>
+<td colspan = "2"> <label for="City" style="color:white;"> City:</label> <input class = "display-box" type = "text" id="City"  /> </td>
+<td colspan = "1" ><label for="Region" style="color:white;"> Region:</label> <input class = "display-box" type = "text" id="Region" /> </td>
+<td colspan = "1" > </td>
+<td colspan = "1" > <label for="Postal Code" style="color:white;">Postal Code:</label> <input class = "display-box" type = "text" id="Postal Code"  /> </td>
+</tr>
+<tr>
+<td colspan = "2"> <label for="Phone Number" style="color:white;"> Phone Number: </label><input class = "display-box" type = "text" id="PhoneNumber"  /> </td>
+<td colspan = "1" ><label for="Fax" style="color:white;"> Fax: </label><input class = "display-box" type = "text" id="Fax" /> </td>
+<td colspan = "1" > </td>
+<td colspan = "1" > <label for="Date" style="color:white;">Date: </label><input class = "display-box" type = "date"  id="Date" /> </td>
+</tr>
+<tr>
+<td colspan = "2"> <label for="Email" style="color:white;"> E mail:* </label><input class = "display-box" type = "text"  id="Email"  /> </td>
+<td colspan = "1" > </td>
+<td colspan = "1" > </td>
+<td colspan = "1" ><label for="JobTitle" style="color:white;"> Job Title:</label> <input class = "display-box" type = "text" id="JobTitle" /> </td>
+</tr>
+<tr>
+<td colspan = "2" > </td>
+<td colspan = "1" align="right" ><input class = "button" type = "submit" value = "Save"   /> </td>
+<td colspan = "2" ><input class = "button" type="reset" value = "Cancel"  onclick = "Cancel()" /> </td>
+</tr>
+</table>
+<script  src="Form.js"></script>
+</form>
+</body>
+</html>

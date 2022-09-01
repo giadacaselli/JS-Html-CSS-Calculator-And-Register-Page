@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="utf-8">
+<title> My first Calculator</title>
+<link rel="stylesheet" href="JSCalculator.css">
+</head>
+<body>
+<div class="header">
+<h1 align="left" style="font-size:25px;">
+ <a href="file:///C:/Users/arash/eclipse-workspace/JSForm-Name-LastName-PersonalDetails/WebContent/MainPage.html"  style="width:77px;padding: 10px;" class="button">Home</a>
+ <a href="file:///C:/Users/arash/eclipse-workspace/JSForm-Name-LastName-PersonalDetails/WebContent/Calculator/JSCalculator.html"  style="width:77px;padding: 10px;" class="button">Calculator</a>
+ <a href="file:///C:/Users/arash/eclipse-workspace/JSForm-Name-LastName-PersonalDetails/WebContent/Form.html"  style="width:77px;padding: 10px;" class="button">Personal Information</a>
+  <img src="file:///C:/Users/arash/eclipse-workspace/JSForm-Name-LastName-PersonalDetails/header.png" alt="Javascript" style="float:right;width:400px;height:80px;align-content: center;" />
+ </h1>
+</div>
+<table class="MainPageDark" >
+<tr>
+<td>
+<table class = "calculator" >
+<tr>
+<td colspan = "3"> <input class = "display-box" type = "text" id = "result" disabled /> </td>
+<!-- clearScreen() funzione per cancellare tutto -->
+<td> <input class = "button" type = "button" value = "C" onclick = "clearScreen()" style = "background-color: black;" /> </td>
+</tr>
+<tr>
+<!-- display() funzione che fa vedere cio che e' stato inserito -->
+<td> <input class = "button" type = "button" value = "1" onclick = "display('1')" /> </td>
+<td> <input class = "button" type = "button" value = "2" onclick = "display('2')" /> </td>
+<td> <input class = "button" type = "button" value = "3" onclick = "display('3')" /> </td>
+<td> <input class = "button" type = "button" value = "/" onclick = "display('/')" /> </td>
+</tr>
+<tr>
+<td> <input class = "button" type = "button" value = "4" onclick = "display('4')" /> </td>
+<td> <input class = "button" type = "button" value = "5" onclick = "display('5')" /> </td>
+<td> <input class = "button" type = "button" value = "6" onclick = "display('6')" /> </td>
+<td> <input class = "button" type = "button" value = "-" onclick = "display('-')" /> </td>
+</tr>
+<tr>
+<td> <input class = "button" type = "button" value = "7" onclick = "display('7')" /> </td>
+<td> <input class = "button" type = "button" value = "8" onclick = "display('8')" /> </td>
+<td> <input class = "button" type = "button" value = "9" onclick = "display('9')" /> </td>
+<td> <input class = "button" type = "button" value = "+" onclick = "display('+')" /> </td>
+</tr>
+<tr>
+<td> <input class = "button" type = "button" value = "." onclick = "display('.')" /> </td>
+<td> <input class = "button" type = "button" value = "0" onclick = "display('0')" /> </td>
+<!-- calculate() funzione matematica per calcolare operazioni -->
+<td> <input class = "button" type = "button" value = "=" onclick = "calculate()" style = "background-color: black;" /> </td>
+<td> <input class = "button" type = "button" value = "*" onclick = "display('*')" /> </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<script  src="JSFiles/JSCalculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #ff8000;
+  color: white;
+  height: 100px;
+  width: 980px;
+  margin: auto;
+  font-size: 30px;
+
+}
+
+.page {
+/* 	 decide quanto sia margine dal contenuto dentro */
+padding: 10px;
+/*   determina che page sia quadrato */
+/* border-radius: 25px;  */
+/*   determina che page abbia un border curva */
+/* border-radius: 1em;  */
+/*   determina altezza di page */
+height: 600px;
+/*   determina la larghezza della page */
+width: 1000px;
+/*   margin auto, mette automaticamente il page in centro della pagina */
+margin: auto;
+/*   background-color per colore sfondo */
+background-color: #191b28;
+/*   una funzione per creare un po di ombra per il page */
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
+/*   la stessa funzione ombra ma con una grafica diversa */
+/* box-shadow: 5px 10px #888888; */
+ 
+
+}
+
+.display-box {
+font-family: 'Orbitron', sans-serif;
+background-color: #dbd3d3;
+border: solid black 0.5px;
+/*   colore di numeri che andranno visualizzati */
+color: black;
+border-radius: 5px;
+width: 50%;
+height: 30%;
+}
+.display-address {
+font-family: 'Orbitron', sans-serif;
+background-color: #dbd3d3;
+border: solid black 0.5px;
+/*   colore di numeri che andranno visualizzati */
+color: black;
+border-radius: 5px;
+width: 80%;
+height: 30%;
+}
+.button {
+font-family: 'Orbitron', sans-serif;
+background-color: #af2c14;
+color: white;
+border: solid black 0.5px;
+width: 20%;
+border-radius: 5px;
+height: 40%;
+outline: none;
+}
+
+.button:active {
+/* 	entra in gioco quando facciamo click su pulsanti */
+background: #191b28;
+-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+-moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+box-shadow: inset 0px 0px 5px #c1c1c1;
+}
